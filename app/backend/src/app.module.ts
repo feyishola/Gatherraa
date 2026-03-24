@@ -25,6 +25,7 @@ import { CouponsModule } from './coupons/coupons.module';
 import { MigrationsModule } from './migrations/migrations.module';
 import { BookingModule } from './booking/booking.module';
 import { WebhooksModule } from './webhooks/webhooks.module';
+import { WaitlistModule } from './waitlist/waitlist.module';
 
 @Module({
   imports: [
@@ -61,6 +62,7 @@ import { WebhooksModule } from './webhooks/webhooks.module';
     MigrationsModule,
     BookingModule,
     WebhooksModule,
+    WaitlistModule,
   ],
   controllers: [AppController],
   providers: [AppService],
